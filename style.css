@@ -3,14 +3,14 @@
   font-style: normal;
   font-format: truetype;
   font-weight: 700;
-  src: url("/fonts/nexa-trial-bold.ttf") ;
+  src: url("public/fonts/nexa-trial-bold.ttf") ;
 }
 @font-face {
   font-family: "Nexa-Regular";
   font-style: normal;
   font-format: truetype;
   font-weight: 400;
-  src: url("/fonts/nexa-trial-regular.ttf") ;
+  src: url("public/fonts/nexa-trial-regular.ttf") ;
 }
 :root {
   --dl-color-gray-500: #595959;
