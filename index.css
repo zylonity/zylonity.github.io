@@ -151,13 +151,16 @@
   top: 99px;
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
   z-index: 95;
   position: relative;
   min-height: 100vh;
   align-items: center;
+  padding-top: 200px;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
   background-color: #141a22;
 }
 .home-video {
