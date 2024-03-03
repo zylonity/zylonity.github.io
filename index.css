@@ -420,9 +420,35 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-text {
+    font-size: 3rem;
+  }
+  .home-text01 {
+    font-size: 2rem;
+  }
   .home-social-bar {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .home-icon10 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .home-icon12 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .home-icon14 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .home-icon16 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .home-icon18 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
   }
   .home-banner1 {
     padding-left: var(--dl-space-space-twounits);
