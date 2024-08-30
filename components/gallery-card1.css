@@ -10,17 +10,25 @@
   height: 100%;
   object-fit: cover;
 }
-.gallery-card1-text {
+.gallery-card1-fragment1 {
+  display: contents;
+}
+.gallery-card1-text3 {
+  color: #989898;
+  display: inline-block;
+  align-self: flex-start;
+  font-family: "NexaLight";
+}
+.gallery-card1-fragment2 {
+  display: contents;
+}
+.gallery-card1-text5 {
+  display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-family: "NexaBold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.gallery-card1-text1 {
-  color: #989898;
-  align-self: flex-start;
-  font-family: "NexaLight";
 }
 
 
