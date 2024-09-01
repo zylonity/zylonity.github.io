@@ -354,6 +354,7 @@
   font-family: "NexaLight";
   text-transform: capitalize;
 }
+
 .home-social-bar2 {
   width: 100%;
   bottom: 150px;
@@ -480,6 +481,22 @@
   display: inline-block;
   align-self: flex-start;
   font-family: "NexaLight";
+}
+.home-text-abtme {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: center;
+  display: inline-block;
+  align-self: flex-start;
+  font-family: "Nexa-Regular";
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.home-text-title {
+  font-size: 35px;
+  font-family: "Nexa-Bold";
+  font-weight: 600;
+  line-height: 150%;
 }
 .home-fragment13 {
   display: contents;
@@ -938,6 +955,7 @@
   .home-text12 {
     text-align: center;
   }
+
   .home-hero3 {
     flex-direction: column;
   }
@@ -1091,23 +1109,25 @@
     justify-content: center;
   }
   .home-icon10 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-unit);
   }
   .home-icon12 {
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
   .home-icon14 {
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
   .home-icon18 {
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
     margin-left: var(--dl-space-space-unit);
   }
   .home-hero2 {
