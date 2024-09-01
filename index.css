@@ -489,10 +489,15 @@
   display: inline-block;
   align-self: flex-start;
   font-family: "Nexa-Regular";
-  margin-left: 160px;
-  margin-right: 160px;
 }
 .home-text-title {
+  font-size: 35px;
+  font-family: "Nexa-Bold";
+  font-weight: 600;
+  line-height: 150%;
+}
+.home-text-title2 {
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
   font-size: 35px;
   font-family: "Nexa-Bold";
   font-weight: 600;
@@ -971,6 +976,7 @@
   .home-hero5 {
     flex-direction: column;
   }
+  
 }
 @media(max-width: 767px) {
   .home-hero1 {
@@ -993,6 +999,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+
   .home-text10 {
     font-size: 3rem;
   }
