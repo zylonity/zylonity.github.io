@@ -383,6 +383,13 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.home-icon23 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+
+  text-decoration: none;
+}
 .home-link16 {
   display: contents;
 }
@@ -870,6 +877,7 @@
 .home-icon-group {
   width: 230px;
   height: 38px;
+  margin-top: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -902,7 +910,7 @@
   fill: #D9D9D9;
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
-  margin-right: var(--dl-space-space-twounits);
+
   text-decoration: none;
 }
 .home-link27 {
