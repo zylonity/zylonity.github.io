@@ -1,0 +1,10 @@
+# robots.txt beepboop
+
+User-agent: *
+Disallow: /public/fonts/
+
+# Allow all crawlers to access the main content
+Allow: /
+
+# Sitemap location (if you have one)
+# Sitemap: https://zylonity.dev/sitemap.xml
