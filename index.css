@@ -490,6 +490,14 @@
   align-self: flex-start;
   font-family: "NexaLight";
 }
+.home-text-abtme-bold {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: center;
+  display: inline-block;
+  align-self: flex-start;
+  font-family: "Nexa-Bold";
+}
 .home-text-title {
   font-size: 35px;
   font-family: "Nexa-Bold";
@@ -634,6 +642,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+
 }
 .home-gallery2 {
   width: 100%;
