@@ -80,6 +80,15 @@
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
 }
+ul {
+  text-align: left; /* Align list items to the left */
+  display: inline-block; /* Keep the list inline with the centered container */
+  padding-left: 20px; /* Optional: adjust padding to control the indentation of list items */
+}
+li {
+  word-wrap: break-word; /* Ensures long text in list items wrap to the next line */
+  margin-bottom: 10px; /* Adds some space between each list item */
+}
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
