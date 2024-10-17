@@ -20,7 +20,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment11 {
   display: contents;
@@ -29,7 +29,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -128,11 +128,11 @@
   flex-direction: column;
 }
 .contact-form2-text12 {
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
 }
 .contact-form2-text-input1 {
   width: 100%;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .contact-form2-input2 {
   gap: 8px;
@@ -142,11 +142,11 @@
   flex-direction: column;
 }
 .contact-form2-text13 {
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
 }
 .contact-form2-text-input2 {
   width: 100%;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .contact-form2-input3 {
   gap: 8px;
@@ -156,39 +156,39 @@
   flex-direction: column;
 }
 .contact-form2-text14 {
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
 }
 .contact-form2-textarea {
   width: 100%;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment37 {
   display: contents;
 }
 .home-text89 {
   display: inline-block;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
 }
 .home-fragment36 {
   display: contents;
 }
 .home-text83 {
   display: inline-block;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment35 {
   display: contents;
 }
 .home-text82 {
   display: inline-block;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
 }
 .home-fragment34 {
   display: contents;
 }
 .home-text79 {
   display: inline-block;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 @media(max-width: 991px) {
   .contact-form2-max-width {
@@ -345,13 +345,13 @@
   color: var(--dl-color-gray-white);
   z-index: 100;
   font-size: 4rem;
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
 }
 .home-text11 {
   color: var(--dl-color-gray-white);
   z-index: 100;
   font-size: 3rem;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
   text-transform: capitalize;
 }
 
@@ -457,7 +457,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment11 {
   display: contents;
@@ -466,7 +466,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -480,7 +480,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-text-abtme {
   color: rgb(255, 255, 255);
@@ -488,7 +488,7 @@
   text-align: center;
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-text-abtme-bold {
   color: rgb(255, 255, 255);
@@ -496,18 +496,18 @@
   text-align: center;
   display: inline-block;
   align-self: flex-start;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
 }
 .home-text-title {
   font-size: 35px;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   line-height: 150%;
 }
 .home-text-title2 {
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   font-size: 35px;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   line-height: 150%;
 }
@@ -518,7 +518,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -532,7 +532,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment15 {
   display: contents;
@@ -541,7 +541,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -555,7 +555,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment17 {
   display: contents;
@@ -564,7 +564,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -578,7 +578,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment19 {
   display: contents;
@@ -587,7 +587,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -601,7 +601,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment21 {
   display: contents;
@@ -610,7 +610,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -659,7 +659,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment23 {
   display: contents;
@@ -668,7 +668,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -679,7 +679,7 @@
   color: rgb(152, 152, 152);
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment25 {
   display: contents;
@@ -688,7 +688,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -698,7 +698,7 @@
 .home-text63 {
   color: rgb(152, 152, 152);
   display: inline-block;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment27 {
   display: contents;
@@ -707,7 +707,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -718,7 +718,7 @@
   color: #989898;
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment29 {
   display: contents;
@@ -727,7 +727,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -738,7 +738,7 @@
   color: #989898;
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment31 {
   display: contents;
@@ -747,7 +747,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -758,7 +758,7 @@
   color: #989898;
   display: inline-block;
   align-self: flex-start;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment33 {
   display: contents;
@@ -767,7 +767,7 @@
   display: inline-block;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -803,28 +803,28 @@
 }
 .home-text79 {
   display: inline-block;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment35 {
   display: contents;
 }
 .home-text82 {
   display: inline-block;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
 }
 .home-fragment36 {
   display: contents;
 }
 .home-text83 {
   display: inline-block;
-  font-family: "NexaLight";
+  font-family: "Montserrat-Light";
 }
 .home-fragment37 {
   display: contents;
 }
 .home-text89 {
   display: inline-block;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
 }
 .home-footer1 {
   top: 99px;
@@ -901,7 +901,7 @@
 }
 .home-text90 {
   font-size: 16px;
-  font-family: "NexaBold";
+  font-family: "Montserrat-Bold";
   font-weight: 400;
   line-height: 150%;
 }
