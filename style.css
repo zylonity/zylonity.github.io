@@ -1,30 +1,23 @@
 @font-face {
-  font-family: "NexaLight";
-  font-style: normal;
-  font-format: opentype;
-  font-weight: 400;
-  src: url("public/fonts/nexa light.otf") ;
-}
-@font-face {
-  font-family: "NexaBold";
-  font-style: normal;
-  font-format: opentype;
-  font-weight: 700;
-  src: url("public/fonts/nexa bold.otf") ;
-}
-@font-face {
-  font-family: "Nexa-Bold";
-  font-style: normal;
-  font-format: truetype;
-  font-weight: 700;
-  src: url("public/fonts/nexa-trial-bold.ttf") ;
-}
-@font-face {
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Light";
   font-style: normal;
   font-format: truetype;
   font-weight: 400;
-  src: url("public/fonts/nexa-trial-regular.ttf") ;
+  src: url("public/fonts/Montserrat-Light.ttf") ;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/Montserrat-Bold.ttf") ;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/Montserrat-Regular.ttf") ;
 }
 :root {
   --dl-color-gray-500: #595959;
@@ -746,7 +739,7 @@ li {
 }
 .Content {
   font-size: 16px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -754,7 +747,7 @@ li {
 }
 .heading1 {
   font-size: 48px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 700;
   line-height: 150%;
 }
@@ -768,25 +761,25 @@ li {
 }
 .bodyLarge {
   font-size: 18px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 400;
   line-height: 150%;
 }
 .bodySmall {
   font-size: 16px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 400;
   line-height: 150%;
 }
 .heading2 {
   font-size: 35px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 600;
   line-height: 150%;
 }
 .heading3 {
   font-size: 20px;
-  font-family: "Nexa-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 600;
   line-height: 150%;
 }
@@ -799,7 +792,7 @@ li {
 }
 .logo {
   font-size: 2em;
-  font-family: "Nexa-Bold";
+  font-family: "Montserrat-Bold";
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
