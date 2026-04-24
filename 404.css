@@ -1,4 +1,4 @@
-.not-found-container1 {
+.not-found-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,14 +7,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.not-found-container2 {
+
+.not-found-code-wrapper {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.not-found-text2 {
+
+.not-found-code {
   color: rgb(38, 38, 38);
   font-size: 252px;
   margin-top: -20px;
@@ -22,14 +24,16 @@
   margin-bottom: -20px;
   letter-spacing: -20px;
 }
-.not-found-container3 {
+
+.not-found-message-wrapper {
   width: 421px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.not-found-text3 {
+
+.not-found-message {
   text-align: center;
   font-weight: 400;
 }
