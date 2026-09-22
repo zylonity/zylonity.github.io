@@ -1,281 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <title>Khaleel Brewesh | Zylonity</title>
-  <meta name="description" content="Welcome to Khaleel Brewesh Mora's portfolio. Explore my projects in game development, software engineering, and robotics." />
-  <meta name="keywords" content="Khaleel Brewesh, Zylonity, game development, software engineering, robotics, portfolio, Sheffield Hallam University, C++, C#, Python" />
-  <meta name="author" content="Khaleel Brewesh Mora" />
-  <meta property="og:title" content="Khaleel Brewesh | Zylonity" />
-  <meta property="og:description" content="Discover the work and projects of Khaleel Brewesh Mora, a computer science student focused on game development, software engineering, and robotics." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://khaleel.uk" />
-  <meta property="og:image" content="https://khaleel.uk/yourimage.jpg" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:title" content="Khaleel Brewesh | Zylonity" />
-  <meta property="twitter:description" content="Explore the portfolio of Khaleel Brewesh Mora, also known as Zylonity, featuring projects in game development, software engineering, and robotics." />
-  <meta property="twitter:image" content="https://khaleel.uk/yourimage.jpg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <link rel="canonical" href="https://khaleel.uk/" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./index.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1018">
+  <title>Khaleel Brewesh Mora — Game & Software Developer</title>
+  <meta name="description" content="Portfolio of Khaleel Brewesh Mora (Zylonity): game engines, games, and software systems.">
+  <meta property="og:title" content="Khaleel Brewesh Mora — Game & Software Developer">
+  <meta property="og:description" content="Game engines, games, and software systems by Zylonity.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://khaleel.uk/">
+  <meta property="og:image" content="https://khaleel.uk/public/maxresdefault-1000h.jpg">
+  <link rel="canonical" href="https://khaleel.uk/">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
-    <nav class="site-nav">
-      <ul class="nav-links">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About me</a></li>
-        <li><a href="#games" class="nav-link">Games</a></li>
-        <li><a href="#programming" class="nav-link">Programming</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <div class="nav-mobile">
-        <a href="#home" class="nav-mobile-link">
-          <svg viewBox="0 0 1024 1024" class="icon icon--mobile">
-            <path d="M512 128c0 0-263.936 227.84-411.435 351.232-8.661 7.851-15.232 19.285-15.232 32.768 0 23.595 19.072 42.667 42.667 42.667h85.333v298.667c0 23.595 19.072 42.667 42.667 42.667h128c23.595 0 42.667-19.115 42.667-42.667v-170.667h170.667v170.667c0 23.552 19.072 42.667 42.667 42.667h128c23.595 0 42.667-19.072 42.667-42.667v-298.667h85.333c23.595 0 42.667-19.072 42.667-42.667 0-13.483-6.571-24.917-16.341-32.768-146.475-123.392-410.325-351.232-410.325-351.232z"></path>
-          </svg>
-        </a>
-        <a href="#about" class="nav-mobile-link">
-          <svg viewBox="0 0 16 16" class="icon icon--mobile">
-            <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" transform="scale(0.75) translate(2,3)"/>
-            <path d="M12 4V2h2v2a2 2 0 0 1-2 2h-1.455l.445 10H8.988l-.222-5H7.234l-.222 5H5.01l.41-9.227L3.3 9.6 1.7 8.4 5 4h7Z" transform="scale(0.75) translate(2,3)"/>
-          </svg>
-        </a>
-        <a href="#games" class="nav-mobile-link">
-          <svg viewBox="0 0 1097.142857142857 1024" class="icon icon--mobile">
-            <path d="M475.429 621.714v-73.143c0-10.286-8-18.286-18.286-18.286h-109.714v-109.714c0-10.286-8-18.286-18.286-18.286h-73.143c-10.286 0-18.286 8-18.286 18.286v109.714h-109.714c-10.286 0-18.286 8-18.286 18.286v73.143c0 10.286 8 18.286 18.286 18.286h109.714v109.714c0 10.286 8 18.286 18.286 18.286h73.143c10.286 0 18.286-8 18.286-18.286v-109.714h109.714c10.286 0 18.286-8 18.286-18.286zM804.571 658.286c0-40.571-32.571-73.143-73.143-73.143s-73.143 32.571-73.143 73.143 32.571 73.143 73.143 73.143 73.143-32.571 73.143-73.143zM950.857 512c0-40.571-32.571-73.143-73.143-73.143s-73.143 32.571-73.143 73.143 32.571 73.143 73.143 73.143 73.143-32.571 73.143-73.143zM1097.143 585.143c0 161.714-130.857 292.571-292.571 292.571-74.286 0-141.714-28-193.143-73.143h-125.714c-51.429 45.143-118.857 73.143-193.143 73.143-161.714 0-292.571-130.857-292.571-292.571s130.857-292.571 292.571-292.571h512c161.714 0 292.571 130.857 292.571 292.571z"></path>
-          </svg>
-        </a>
-        <a href="#programming" class="nav-mobile-link">
-          <svg viewBox="0 0 1280 1024" class="icon icon--mobile">
-            <path d="M832 736l96 96 320-320-320-320-96 96 224 224z"></path>
-            <path d="M448 288l-96-96-320 320 320 320 96-96-224-224z"></path>
-            <path d="M701.298 150.519l69.468 18.944-191.987 704.026-69.468-18.944 191.987-704.026z"></path>
-          </svg>
-        </a>
-        <a href="#contact" class="nav-mobile-link">
-          <svg viewBox="0 0 1024 1024" class="icon icon--mobile">
-            <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-          </svg>
-        </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Khaleel Brewesh Mora, home">KB<span> / Zylonity</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#featured">Featured work</a><a href="#work">Project archive</a><a href="#about">About</a><a class="nav-contact" href="#contact">Let’s talk</a>
       </div>
     </nav>
   </header>
-
-  <main>
-    <section id="home" class="hero">
-      <video
-        src="public/showreel.mp4"
-        loop
-        muted
-        poster="public/maxresdefault-1000h.jpg"
-        preload="auto"
-        autoplay
-        playsinline
-        class="hero-video"
-      ></video>
-      <h1 class="hero-name">Khaleel Brewesh Mora</h1>
-      <p class="hero-subtitle">Game &amp; Software Developer</p>
-      <div class="hero-social">
-        <a href="https://www.linkedin.com/in/khaleel-brewesh/" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-          </svg>
-        </a>
-        <a href="https://github.com/zylonity" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"></path>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/zylo_dev/" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/@Zylonity" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 1024 1024" class="icon icon--social">
-            <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
-          </svg>
-        </a>
+  <main id="main-content">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">GAME DEVELOPMENT · GRAPHICS · SOFTWARE</p>
+        <h1 id="hero-title">I build the tools,<br><em>then the worlds.</em></h1>
+        <p class="hero-copy">I’m Khaleel Brewesh Mora, also known as Zylonity — a developer making game engines, playable worlds, and useful software.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#featured">Explore featured work <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#contact">Get in touch</a></div>
+      </div>
+      <div class="hero-panel" aria-label="Current work">
+        <p class="panel-label">CURRENTLY BUILDING</p>
+        <div class="signal-row"><span class="signal-dot"></span><span>Craig Engine</span><span class="muted">C++ / Vulkan</span></div>
+        <div class="signal-row"><span class="signal-dot"></span><span>StockBrain</span><span class="muted">Python / TypeScript</span></div>
+        <div class="signal-row"><span class="signal-dot"></span><span>Papa’s Pizzeria 3DS</span><span class="muted">C / C++</span></div>
       </div>
     </section>
-
-    <section id="about" class="section section--accent">
-      <h2 class="section-title">About me</h2>
-      <div class="about-content">
-        <p>
-          Hello! I'm Khaleel (also known as Zylonity online), a Computer Science student at Sheffield Hallam University with a background in game design from East London Arts and Music. I'm passionate about creating innovative tech solutions, with experience spanning from software/game development, robotics, and hardware repair.
-        </p>
-        <p><strong>Key Skills:</strong></p>
-        <ul>
-          <li><strong>Programming:</strong> C++, C#, Python, Java, Lua</li>
-          <li><strong>Game Development Tools:</strong> Unity, Unreal Engine, SFML, DirectX11</li>
-          <li><strong>Design Tools:</strong> Photoshop, Autodesk Maya, Blender</li>
-          <li><strong>Operating Systems:</strong> Windows, Ubuntu, Debian (Bash terminal, CMD, PowerShell)</li>
-          <li><strong>Hardware Repair:</strong> Phones, computers, component-level repair</li>
-        </ul>
-        <p>
-          <strong>Experience:</strong><br>
-          I've developed interactive games in Unity and Unreal Engine and built custom software using Python, C#, and .NET. Additionally, I have hands-on experience with component-level repairs, including fixing phones, computers, and other electronic components, which has honed my troubleshooting skills and deepened my understanding of hardware-software integration. I enjoy solving complex technical problems, whether it's optimizing game mechanics, building efficient systems, or repairing hardware.
-        </p>
-        <p>
-          In addition to my technical expertise, I have over five years of experience in customer-facing roles, including working at conventions across Europe. These roles have helped me build strong communication and interpersonal skills. Fluent in both English and Spanish, I work effectively with diverse teams and stakeholders.
-        </p>
-        <p>
-          Currently based between London and Sheffield, I'm open to opportunities worldwide, including remote work. I'm always eager to expand my skills and take on exciting new projects in the tech industry.
-        </p>
-        <p>
-          <strong style="color:rgb(6, 189, 0)">Note:</strong><br>
-          While my portfolio may not fully reflect the breadth of my work, I am continuously involved in new projects and ideas, some of which are restricted by NDAs or privacy requirements.
-        </p>
+    <section id="featured" class="section featured-section" aria-labelledby="featured-title">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED PROJECTS</p><h2 id="featured-title">The work I’d show you first.</h2></div><p>Click a project to see the thinking behind it.</p></div>
+      <div class="featured-grid">
+        <article class="feature-card feature-card--craig">
+          <div class="feature-media"><img src="images/featured/craig-vulkan-viking-room.png" alt="Viking room texture asset used in Craig Vulkan"><div class="media-overlay"><span>ENGINE_01</span><span>VULKAN</span></div></div>
+          <div class="feature-content"><p class="project-index">01 / ENGINE & GRAPHICS</p><h3>Craig Engine</h3><p>A custom C++ game engine with a Vulkan renderer, editor tooling, scene management, resource loading, and additional console platform support.</p><div class="tags"><span>C++</span><span>Vulkan</span><span>CMake</span><span>GLSL</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/Craig_Vulkan" target="_blank" rel="noreferrer">Open source code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="craig">Project notes <span aria-hidden="true">+</span></button></div></div>
+        </article>
+        <article class="feature-card feature-card--stockbrain">
+          <div class="feature-media stockbrain-placeholder" role="img" aria-label="Illustrated StockBrain dashboard placeholder"><div class="dashboard-bar"><span></span><span></span><span></span></div><div class="dashboard-body"><div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="metric-stack"><b>RESEARCH</b><span>Human approval</span><b class="teal">RISK CHECKED</b><span>Every order explained</span></div></div><div class="media-overlay"><span>SYSTEM_02</span><span>PRIVATE DEMO</span></div></div>
+          <div class="feature-content"><p class="project-index">02 / FULL-STACK SYSTEM</p><h3>StockBrain</h3><p>A self-hosted research, risk-management, and trade-proposal system. AI researches; transparent rules size risk; a human approves every action.</p><div class="tags"><span>Python</span><span>TypeScript</span><span>PostgreSQL</span><span>Docker</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/StockBrain" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="stockbrain">Project notes <span aria-hidden="true">+</span></button></div></div>
+        </article>
+        <article class="feature-card feature-card--papas">
+          <div class="feature-media"><img src="images/featured/papas-pizzeria-3ds.png" alt="Papa’s Pizzeria running on Nintendo 3DS"><div class="media-overlay"><span>GAME_03</span><span>NINTENDO 3DS</span></div></div>
+          <div class="feature-content"><p class="project-index">03 / HOME BREW GAME</p><h3>Papa’s Pizzeria 3DS</h3><p>A playable homebrew remake for Nintendo 3DS, built in C and C++, tested on original hardware and open for players to try.</p><div class="tags"><span>C</span><span>C++</span><span>3DS Homebrew</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/PapasPizzeria-n3DS" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="papas">Project notes <span aria-hidden="true">+</span></button></div></div>
+        </article>
       </div>
     </section>
-
-    <section id="games" class="section section--dark">
-      <h2 class="section-title">Check out some of my games!</h2>
-      <div class="project-grid">
-        <a href="https://zylonity.itch.io/ultimate-death-tennis" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Ultimate Death Tennis" src="images/ultimate_death_tennis.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Ultimate Death Tennis</h3>
-          <span class="project-card-desc">VR tennis game where you fight AI to survive. Your only objective is to hit the enemy and win.</span>
-        </a>
-        <a href="https://zylonity.itch.io/nursing-origins" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Nursing Origins" src="images/nursing_origins.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Nursing Origins</h3>
-          <span class="project-card-desc">Visualize nursery rhymes in a narrative-driven game by using your webcam. Make sure to blink!</span>
-        </a>
-        <a href="https://zylonity.itch.io/happy-hello" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Happy Hello" src="images/happy_hello.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Happy Hello</h3>
-          <span class="project-card-desc">A fun game jam project where you make people happy by shooting happy gas.</span>
-        </a>
-        <a href="https://zylonity.itch.io/penguins-gon-fly" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Penguins Gon' Fly" src="images/penguins_gon_fly.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Penguins Gon' Fly</h3>
-          <span class="project-card-desc">2D Endless runner where you flee from penguins on planes.</span>
-        </a>
-        <a href="https://zylonity.itch.io/the-simulation" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="The Simulation" src="images/the_simulation.jpg" class="project-card-image" />
-          <h3 class="project-card-title">The Simulation</h3>
-          <span class="project-card-desc">3D platformer with environmental puzzles, inspired by Portal.</span>
-        </a>
-        <a href="https://github.com/zylonity/Fishy-Business" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Fishy Business" src="images/fishy_business.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Fishy Business</h3>
-          <span class="project-card-desc">2D Fishing simulator. Relax, catch fish, go to space and have fun!</span>
-        </a>
-      </div>
+    <section id="work" class="section archive-section" aria-labelledby="archive-title">
+      <div class="section-heading"><div><p class="eyebrow">PROJECT ARCHIVE</p><h2 id="archive-title">More things I’ve made.</h2></div><p>Filter by the kind of work you want to explore.</p></div>
+      <div class="filters" aria-label="Filter projects"><button class="filter is-active" data-filter="all" aria-pressed="true">All work</button><button class="filter" data-filter="games" aria-pressed="false">Games</button><button class="filter" data-filter="systems" aria-pressed="false">Systems</button><button class="filter" data-filter="graphics" aria-pressed="false">Graphics</button></div>
+      <div class="archive-grid">
+        <a class="archive-card" data-category="games" href="https://zylonity.itch.io/ultimate-death-tennis" target="_blank" rel="noreferrer"><img src="images/ultimate_death_tennis.jpg" alt="Ultimate Death Tennis"><div><p>GAME</p><h3>Ultimate Death Tennis</h3><span>VR tennis survival game ↗</span></div></a>
+        <a class="archive-card" data-category="games" href="https://zylonity.itch.io/nursing-origins" target="_blank" rel="noreferrer"><img src="images/nursing_origins.jpg" alt="Nursing Origins"><div><p>GAME</p><h3>Nursing Origins</h3><span>Narrative webcam game ↗</span></div></a>
+        <a class="archive-card" data-category="graphics games" href="https://github.com/zylonity/PenguinsGonFly-DX11Remake" target="_blank" rel="noreferrer"><img src="images/penguins_remake.jpg" alt="Penguins Gon' Fly DirectX 11 remake"><div><p>GRAPHICS / GAME</p><h3>Penguins Gon’ Fly DX11</h3><span>DirectX 11 remake with Lua ↗</span></div></a>
+        <a class="archive-card" data-category="systems" href="https://github.com/zylonity/Eldoria-Launcher" target="_blank" rel="noreferrer"><img src="images/eldoria_launcher.jpg" alt="Eldoria Launcher"><div><p>SYSTEM</p><h3>Eldoria Launcher</h3><span>C# launcher with updates ↗</span></div></a>
+        <a class="archive-card" data-category="games" href="https://github.com/zylonity/Fishy-Business" target="_blank" rel="noreferrer"><img src="images/fishy_business.jpg" alt="Fishy Business"><div><p>GAME</p><h3>Fishy Business</h3><span>2D fishing adventure ↗</span></div></a>
+        <a class="archive-card" data-category="systems" href="https://github.com/zylonity/Lesser-Notepad" target="_blank" rel="noreferrer"><img src="images/lesser_notepad.jpg" alt="Lesser Notepad"><div><p>SYSTEM</p><h3>Lesser Notepad</h3><span>C++ fundamentals project ↗</span></div></a>
+      </div><p class="archive-empty" hidden>No projects in that category yet.</p>
     </section>
-
-    <section id="programming" class="section section--accent">
-      <h2 class="section-title">Check out some of my code and apps!</h2>
-      <div class="project-grid">
-        <a href="https://github.com/zylonity/Eldoria-Launcher" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Eldoria Launcher" src="images/eldoria_launcher.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Eldoria Launcher</h3>
-          <span class="project-card-desc">Custom Minecraft launcher developed using .NET and C#. Allows for remote updates too.</span>
-        </a>
-        <a href="https://github.com/zylonity/Lesser-Notepad" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Lesser Notepad" src="images/lesser_notepad.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Lesser Notepad</h3>
-          <span class="project-card-desc">Basic notepad application made in C++ for software development fundamentals.</span>
-        </a>
-        <a href="https://github.com/zylonity/AAAAA-The-game" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="AAAAA-The-game" src="images/aaaaa_the_game.jpg" class="project-card-image" />
-          <h3 class="project-card-title">AAAAA-The-game</h3>
-          <span class="project-card-desc">2D zombie stickman shooter game created with C++ and SFML.</span>
-        </a>
-        <a href="https://github.com/zylonity/ConsoleStickman" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Console Stickman" src="images/console_stickman.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Console Stickman</h3>
-          <span class="project-card-desc">A console-based game where a stickman moves across the screen using keyboard controls.</span>
-        </a>
-        <a href="https://github.com/zylonity/PenguinsGonFly-DX11Remake" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="PenguinsGonFly-DX11Remake" src="images/penguins_remake.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Penguins Gon' Fly DX11 Remake</h3>
-          <span class="project-card-desc">Remake of my first game using DirectX11, coded in C++ and Lua for scripting capabilities.</span>
-        </a>
-        <a href="https://github.com/zylonity/NursingOrigins" target="_blank" rel="noreferrer noopener" class="project-card">
-          <img alt="Nursing Origins" src="images/nursing_origins.jpg" class="project-card-image" />
-          <h3 class="project-card-title">Nursing Origins</h3>
-          <span class="project-card-desc">A narrative-driven game that visualizes nursery rhymes with complex programming and storytelling.</span>
-        </a>
-      </div>
-    </section>
-
-    <section id="contact" class="section section--dark">
-      <div class="contact-wrapper">
-        <div class="contact-info">
-          <h2 class="section-title">Contact me!</h2>
-          <p class="contact-text">
-            If you'd like to contact me about any of my projects,<br>
-            work opportunities, or anything in general,<br>
-            feel free to send me an email or use the form!
-          </p>
-          <div class="contact-email-row">
-            <svg viewBox="0 0 1024 1024" class="icon icon--contact">
-              <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-            </svg>
-            <a href="mailto:mora@khaleel.uk?subject=Question about you!" class="contact-email">mora@khaleel.uk</a>
-          </div>
-        </div>
-        <form action="https://formsubmit.co/65723957fa1899b7392c43e47e115cb5" method="POST" enctype="application/x-www-form-urlencoded" class="contact-form">
-          <div class="form-field">
-            <label for="contact-name" class="form-label">Name</label>
-            <input type="text" id="contact-name" placeholder="Name" name="name" class="form-input" />
-          </div>
-          <div class="form-field">
-            <label for="contact-email" class="form-label">Email</label>
-            <input type="email" id="contact-email" required placeholder="Email" name="email" class="form-input" />
-          </div>
-          <div class="form-field">
-            <label for="contact-message" class="form-label">Message</label>
-            <textarea id="contact-message" rows="3" placeholder="Enter your message" name="message" required class="form-input"></textarea>
-          </div>
-          <button type="submit" class="btn-submit">Submit</button>
-        </form>
-      </div>
-    </section>
+    <section id="about" class="section about-section" aria-labelledby="about-title"><div class="about-layout"><div><p class="eyebrow">ABOUT ME</p><h2 id="about-title">Curious about systems — from a shader to a solder joint.</h2></div><div><p>I’m a Computer Science student at Sheffield Hallam University with a game-design background. I enjoy making complex technical work feel tangible, whether that means a game engine, a playable prototype, or dependable software.</p><p>I work across C++, C#, Python, graphics programming, game development, Linux, and hardware repair. I’m based between London and Sheffield and open to remote opportunities.</p><a class="text-link" href="https://github.com/zylonity" target="_blank" rel="noreferrer">See everything on GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><div class="contact-layout"><div><p class="eyebrow">GET IN TOUCH</p><h2 id="contact-title">Have something interesting to build?</h2><p>Tell me about it. I’m always up for a good technical problem.</p><a class="email-link" href="mailto:mora@khaleel.uk">mora@khaleel.uk ↗</a></div><form action="https://formsubmit.co/65723957fa1899b7392c43e47e115cb5" method="POST"><label>Name<input type="text" name="name" autocomplete="name" required></label><label>Email<input type="email" name="email" autocomplete="email" required></label><label>Message<textarea name="message" rows="4" required></textarea></label><button class="button button-primary" type="submit">Send message <span aria-hidden="true">↗</span></button></form></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="footer-top">
-      <span class="footer-logo">Khaleel</span>
-      <nav class="footer-nav">
-        <a href="#home" class="footer-nav-link">Home</a>
-        <a href="#about" class="footer-nav-link">About me</a>
-        <a href="#games" class="footer-nav-link">Games</a>
-        <a href="#programming" class="footer-nav-link">Programming</a>
-        <a href="#contact" class="footer-nav-link">Contact</a>
-      </nav>
-    </div>
-    <div class="footer-divider"></div>
-    <div class="footer-bottom">
-      <span class="footer-copyright">&copy; 2023 Zylonity, All Rights Reserved. Site made by yours truly.</span>
-      <div class="footer-social">
-        <a href="https://www.linkedin.com/in/khaleel-brewesh/" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-          </svg>
-        </a>
-        <a href="https://github.com/zylonity" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"></path>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/zylo_dev/" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 877.7142857142857 1024" class="icon icon--social">
-            <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/@Zylonity" target="_blank" rel="noreferrer noopener" class="social-link">
-          <svg viewBox="0 0 1024 1024" class="icon icon--social">
-            <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </footer>
+  <footer class="site-footer"><span>© 2026 Khaleel Brewesh Mora / Zylonity</span><div><a href="https://github.com/zylonity" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/khaleel-brewesh/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.youtube.com/@Zylonity" target="_blank" rel="noreferrer">YouTube ↗</a></div></footer>
+  <dialog class="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close project notes">×</button><p class="eyebrow" id="dialog-kicker"></p><h2 id="dialog-title"></h2><p id="dialog-copy"></p><ul id="dialog-list"></ul><a class="text-link" id="dialog-link" target="_blank" rel="noreferrer">Open project <span aria-hidden="true">↗</span></a></dialog>
+  <script src="app.js"></script>
 </body>
 </html>
