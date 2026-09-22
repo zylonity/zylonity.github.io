@@ -28,34 +28,34 @@
   </header>
   <main id="main-content">
     <section id="home" class="hero" aria-labelledby="hero-title">
-      <div class="hero-grid" aria-hidden="true"></div>
+      <video class="hero-reel" src="public/showreel.mp4" poster="public/maxresdefault-1000h.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
       <div class="hero-content">
         <p class="eyebrow">KHALEEL BREWESH MORA / ZYLONITY</p>
-        <h1 id="hero-title">Hi, I’m Khaleel.<br><em>I make games and software.</em></h1>
-        <p class="hero-copy">I’m a developer from London and Sheffield. I like building games, game engines, tools, and whatever else I get curious about.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#featured">See my projects <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#contact">Say hello</a></div>
+        <h1 id="hero-title">I make games,<br>engines, and tools.</h1>
+        <p class="hero-copy">I’m a developer from London and Sheffield. Most of what I make starts because I want to learn how something works, or because I think it would be fun to try.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#featured">Have a look <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#contact">Get in touch</a></div>
       </div>
       <div class="hero-panel" aria-label="Current work">
-        <p class="panel-label">WHAT I’M WORKING ON</p>
+        <p class="panel-label">CURRENTLY ON MY DESK</p>
         <div class="signal-row"><span class="signal-dot"></span><span>Craig Engine</span><span class="muted">C++ / Vulkan</span></div>
         <div class="signal-row"><span class="signal-dot"></span><span>StockBrain</span><span class="muted">Python / TypeScript</span></div>
         <div class="signal-row"><span class="signal-dot"></span><span>Papa’s Pizzeria 3DS</span><span class="muted">C / C++</span></div>
       </div>
     </section>
     <section id="featured" class="section featured-section" aria-labelledby="featured-title">
-      <div class="section-heading"><div><p class="eyebrow">SELECTED PROJECTS</p><h2 id="featured-title">A few things I’m proud of.</h2></div><p>Some are finished, some are still being worked on.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">SELECTED PROJECTS</p><h2 id="featured-title">Some work I care about.</h2></div><p>A mix of things that are finished, public, unfinished, or still taking up too much of my time.</p></div>
       <div class="featured-grid">
         <article class="feature-card feature-card--craig">
-          <div class="feature-media"><img src="images/featured/craig-vulkan-viking-room.png" alt="Viking room texture asset used in Craig Vulkan"><div class="media-overlay"><span>ENGINE_01</span><span>VULKAN</span></div></div>
-          <div class="feature-content"><p class="project-index">GAME ENGINE</p><h3>Craig Engine</h3><p>My own game engine. The public version uses Vulkan and includes an editor, scene management, model loading, and rendering tools.</p><div class="tags"><span>C++</span><span>Vulkan</span><span>CMake</span><span>GLSL</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/Craig_Vulkan" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="craig">More about it <span aria-hidden="true">+</span></button></div></div>
+          <div class="feature-media"><img src="images/featured/craig-vulkan-viking-room.png" alt="Texture asset from the Craig Vulkan project"></div>
+          <div class="feature-content"><p class="project-index">CRAIG ENGINE</p><h3>A game engine I keep building because I can’t help myself.</h3><p>Craig is my own engine. The public version uses Vulkan and has an editor, scene management, model loading, and rendering tools. It also has platform work I can’t put online.</p><p class="tech-line">C++, Vulkan, CMake, GLSL</p><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/Craig_Vulkan" target="_blank" rel="noreferrer">Browse the Vulkan version <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="craig">What’s in it <span aria-hidden="true">+</span></button></div></div>
         </article>
         <article class="feature-card feature-card--stockbrain">
-          <div class="feature-media stockbrain-placeholder" role="img" aria-label="StockBrain project placeholder"><p>Stock<br>Brain</p><span>A work-in-progress trading research tool.</span></div>
-          <div class="feature-content"><p class="project-index">PERSONAL TOOL</p><h3>StockBrain</h3><p>A project that reads market news, researches companies, and suggests trades. The important part: nothing happens unless a person approves it.</p><div class="tags"><span>Python</span><span>TypeScript</span><span>PostgreSQL</span><span>Docker</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/StockBrain" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="stockbrain">More about it <span aria-hidden="true">+</span></button></div></div>
+          <div class="feature-media stockbrain-placeholder" role="img" aria-label="StockBrain wordmark"><p>StockBrain</p><span>A personal project that is still very much in progress.</span></div>
+          <div class="feature-content"><p class="project-index">STOCKBRAIN</p><h3>News comes in. It does the boring bits. I make the final call.</h3><p>StockBrain is a tool for researching market news and preparing trade proposals. I was more interested in making its risk rules understandable than making it look clever.</p><p class="tech-line">Python, TypeScript, PostgreSQL, Docker</p><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/StockBrain" target="_blank" rel="noreferrer">Browse the repository <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="stockbrain">How it works <span aria-hidden="true">+</span></button></div></div>
         </article>
         <article class="feature-card feature-card--papas">
-          <div class="feature-media"><img src="images/featured/papas-pizzeria-3ds.png" alt="Papa’s Pizzeria running on Nintendo 3DS"><div class="media-overlay"><span>GAME_03</span><span>NINTENDO 3DS</span></div></div>
-          <div class="feature-content"><p class="project-index">3DS GAME</p><h3>Papa’s Pizzeria 3DS</h3><p>A Papa’s Pizzeria remake for the Nintendo 3DS. I made it for my wife, then decided other people might enjoy it too.</p><div class="tags"><span>C</span><span>C++</span><span>3DS Homebrew</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/PapasPizzeria-n3DS" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="papas">More about it <span aria-hidden="true">+</span></button></div></div>
+          <div class="feature-media"><img src="images/featured/papas-pizzeria-3ds.png" alt="Papa’s Pizzeria running on Nintendo 3DS"></div>
+          <div class="feature-content"><p class="project-index">PAPA’S PIZZERIA 3DS</p><h3>Made for my wife. Now people can play it on a 3DS.</h3><p>A remake of Papa’s Pizzeria for Nintendo 3DS homebrew. I made it in C and C++, and it has been tested on an actual old 3DS as well as emulators.</p><p class="tech-line">C, C++, Nintendo 3DS homebrew</p><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/PapasPizzeria-n3DS" target="_blank" rel="noreferrer">See the project <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="papas">Read more <span aria-hidden="true">+</span></button></div></div>
         </article>
       </div>
     </section>
