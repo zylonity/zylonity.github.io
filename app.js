@@ -34,7 +34,7 @@ const projects = {
   craig: {
     kicker: 'ENGINE & GRAPHICS',
     title: 'Craig Engine',
-    copy: 'Craig is my game engine, not just a renderer experiment. The public Vulkan version shows the C++ engine and editor work; console platform work is kept appropriately separate.',
+    copy: 'Craig is my C++ game engine. The Vulkan version is open source and includes the engine and editor. It also supports console platforms.',
     points: ['Editor workflow for creating and managing game objects', 'Scene, camera, resource, and shader systems', 'Open-source Vulkan implementation with CMake and GLSL'],
     href: 'https://github.com/zylonity/Craig_Vulkan',
     link: 'Open the Vulkan repository'
@@ -42,7 +42,7 @@ const projects = {
   stockbrain: {
     kicker: 'FULL-STACK SYSTEM',
     title: 'StockBrain',
-    copy: 'A local-first system that turns news into auditable research and trade proposals while keeping execution deliberately under human control.',
+    copy: 'StockBrain runs locally, researches market news, and prepares trade proposals. You can review and approve them through its web interface or Telegram.',
     points: ['Research and classification pipeline with explicit decision records', 'Deterministic risk sizing and position-exit rules', 'Web dashboard, Telegram approvals, PostgreSQL, Docker, and CI'],
     href: 'https://github.com/zylonity/StockBrain',
     link: 'Open the repository'
@@ -50,8 +50,8 @@ const projects = {
   papas: {
     kicker: 'HOME BREW GAME',
     title: 'Papa’s Pizzeria 3DS',
-    copy: 'A lovingly built, playable 3DS homebrew remake, made to run on both emulators and original Nintendo hardware.',
-    points: ['C and C++ implementation for the Nintendo 3DS', 'Gameplay, screens, audio, and touch-friendly UI', 'Published source with a community of players and contributors'],
+    copy: 'A Papa’s Pizzeria remake I made for my wife. It runs on Nintendo 3DS hardware and emulators.',
+    points: ['C and C++ implementation for the Nintendo 3DS', 'Gameplay, screens, audio, and touch-friendly UI', 'Source code available on GitHub'],
     href: 'https://github.com/zylonity/PapasPizzeria-n3DS',
     link: 'Open the repository'
   }
