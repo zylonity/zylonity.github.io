@@ -78,3 +78,77 @@ document.querySelectorAll('.details-button').forEach((button) => button.addEvent
 }));
 closeDialog.addEventListener('click', () => dialog.close());
 dialog.addEventListener('close', () => opener?.focus());
+
+const spotlightSlides = [...document.querySelectorAll('.spotlight-slide')];
+if (spotlightSlides.length) {
+  const spotlightDots = [...document.querySelectorAll('.spotlight-dot')];
+  const spotlightCaptionTitle = document.querySelector('.spotlight-caption-title');
+  const spotlightCaptionCopy = document.querySelector('.spotlight-caption-copy');
+  const spotlightViewport = document.querySelector('.spotlight-viewport');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let spotlightIndex = spotlightSlides.findIndex((slide) => slide.classList.contains('is-active'));
+  if (spotlightIndex < 0) spotlightIndex = 0;
+  let spotlightTimer;
+
+  const showSpotlightSlide = (index) => {
+    const nextIndex = (index + spotlightSlides.length) % spotlightSlides.length;
+    const previousSlide = spotlightSlides[spotlightIndex];
+    previousSlide.classList.remove('is-active');
+    previousSlide.querySelector('video')?.pause();
+    spotlightDots[spotlightIndex]?.classList.remove('is-active');
+    spotlightDots[spotlightIndex]?.setAttribute('aria-selected', 'false');
+    spotlightIndex = nextIndex;
+    const slide = spotlightSlides[spotlightIndex];
+    slide.classList.add('is-active');
+    slide.querySelector('video')?.play();
+    spotlightDots[spotlightIndex]?.classList.add('is-active');
+    spotlightDots[spotlightIndex]?.setAttribute('aria-selected', 'true');
+    spotlightCaptionTitle.textContent = slide.dataset.title;
+    spotlightCaptionCopy.textContent = slide.dataset.copy;
+  };
+
+  const startSpotlight = () => {
+    if (reduceMotion) return;
+    spotlightTimer = setInterval(() => showSpotlightSlide(spotlightIndex + 1), 13000);
+  };
+  const stopSpotlight = () => clearInterval(spotlightTimer);
+  const restartSpotlight = () => { stopSpotlight(); startSpotlight(); };
+
+  document.querySelector('.spotlight-prev').addEventListener('click', () => { showSpotlightSlide(spotlightIndex - 1); restartSpotlight(); });
+  document.querySelector('.spotlight-next').addEventListener('click', () => { showSpotlightSlide(spotlightIndex + 1); restartSpotlight(); });
+  spotlightDots.forEach((dot, i) => dot.addEventListener('click', () => { showSpotlightSlide(i); restartSpotlight(); }));
+  spotlightViewport.addEventListener('mouseenter', stopSpotlight);
+  spotlightViewport.addEventListener('mouseleave', startSpotlight);
+
+  document.querySelectorAll('.compare-slider').forEach((slider) => {
+    const setPosition = (percent) => {
+      const clamped = Math.min(100, Math.max(0, percent));
+      slider.style.setProperty('--compare-pos', clamped + '%');
+      slider.setAttribute('aria-valuenow', String(Math.round(clamped)));
+    };
+    const positionFromEvent = (event) => {
+      const rect = slider.getBoundingClientRect();
+      const clientX = event.touches ? event.touches[0].clientX : event.clientX;
+      setPosition(((clientX - rect.left) / rect.width) * 100);
+    };
+    let dragging = false;
+    slider.addEventListener('pointerdown', (event) => {
+      dragging = true;
+      slider.setPointerCapture(event.pointerId);
+      positionFromEvent(event);
+      stopSpotlight();
+    });
+    slider.addEventListener('pointermove', (event) => { if (dragging) positionFromEvent(event); });
+    const stopDragging = () => { dragging = false; restartSpotlight(); };
+    slider.addEventListener('pointerup', stopDragging);
+    slider.addEventListener('pointercancel', stopDragging);
+    slider.addEventListener('keydown', (event) => {
+      const current = parseFloat(slider.style.getPropertyValue('--compare-pos')) || 50;
+      if (event.key === 'ArrowLeft') { setPosition(current - 5); event.preventDefault(); }
+      if (event.key === 'ArrowRight') { setPosition(current + 5); event.preventDefault(); }
+    });
+    setPosition(50);
+  });
+
+  startSpotlight();
+}
