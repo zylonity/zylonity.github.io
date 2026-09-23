@@ -89,6 +89,7 @@ if (spotlightSlides.length) {
   let spotlightIndex = spotlightSlides.findIndex((slide) => slide.classList.contains('is-active'));
   if (spotlightIndex < 0) spotlightIndex = 0;
   let spotlightTimer;
+  let spotlightHovered = false;
 
   const showSpotlightSlide = (index) => {
     const nextIndex = (index + spotlightSlides.length) % spotlightSlides.length;
@@ -108,17 +109,34 @@ if (spotlightSlides.length) {
   };
 
   const startSpotlight = () => {
-    if (reduceMotion) return;
-    spotlightTimer = setInterval(() => showSpotlightSlide(spotlightIndex + 1), 13000);
+    stopSpotlight();
+    if (reduceMotion || document.hidden || spotlightHovered) return;
+    spotlightTimer = setTimeout(() => {
+      showSpotlightSlide(spotlightIndex + 1);
+      startSpotlight();
+    }, 13000);
   };
-  const stopSpotlight = () => clearInterval(spotlightTimer);
+  function stopSpotlight() {
+    clearTimeout(spotlightTimer);
+    spotlightTimer = undefined;
+  }
   const restartSpotlight = () => { stopSpotlight(); startSpotlight(); };
 
   document.querySelector('.spotlight-prev').addEventListener('click', () => { showSpotlightSlide(spotlightIndex - 1); restartSpotlight(); });
   document.querySelector('.spotlight-next').addEventListener('click', () => { showSpotlightSlide(spotlightIndex + 1); restartSpotlight(); });
   spotlightDots.forEach((dot, i) => dot.addEventListener('click', () => { showSpotlightSlide(i); restartSpotlight(); }));
-  spotlightViewport.addEventListener('mouseenter', stopSpotlight);
-  spotlightViewport.addEventListener('mouseleave', startSpotlight);
+  spotlightViewport.addEventListener('mouseenter', () => {
+    spotlightHovered = true;
+    stopSpotlight();
+  });
+  spotlightViewport.addEventListener('mouseleave', () => {
+    spotlightHovered = false;
+    startSpotlight();
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stopSpotlight();
+    else startSpotlight();
+  });
 
   document.querySelectorAll('.compare-slider').forEach((slider) => {
     const setPosition = (percent) => {

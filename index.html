@@ -47,25 +47,24 @@
         <ul class="spotlight-slides">
           <li class="spotlight-slide is-active" data-title="Live editor &amp; gizmos" data-copy="ImGui-based editor with ImGuizmo translate, rotate, and scale gizmos for positioning objects directly in the scene.">
             <video class="spotlight-media" poster="images/craig-spotlight/01-editor-gizmos-frame.png" autoplay muted loop playsinline aria-label="Craig editor showing transform gizmos on a selected object">
-              <source src="images/craig-spotlight/01-editor-gizmos.mp4" type="video/mp4">
+              <source src="images/craig-spotlight/gizmo.webm" type="video/webm">
             </video>
           </li>
-          <li class="spotlight-slide" data-title="Scene &amp; GameObject management" data-copy="Add, delete, and browse for new models on the fly, all organised in a live scene hierarchy.">
-            <video class="spotlight-media" poster="images/craig-spotlight/02-scene-management-frame.png" autoplay muted loop playsinline aria-label="Craig scene hierarchy listing GameObjects">
-              <source src="images/craig-spotlight/02-scene-management.mp4" type="video/mp4">
+          <li class="spotlight-slide" data-title="glTF model &amp; texture loading" data-copy="Import textured, normal-mapped glTF models straight into the scene, each with its own descriptor set.">
+            <video class="spotlight-media" poster="images/craig-spotlight/03-gltf-loading.svg" autoplay muted loop playsinline aria-label="Textured glTF model loaded into the Craig scene">
+              <source src="images/craig-spotlight/gltf.webm" type="video/webm">
             </video>
           </li>
-          <li class="spotlight-slide" data-title="glTF model &amp; texture loading" data-copy="Import textured, normal-mapped glTF models straight into the scene, each with its own descriptor set."><img src="images/craig-spotlight/03-gltf-loading.svg" alt="Textured glTF model loaded into the Craig scene" loading="lazy"></li>
           <li class="spotlight-slide" data-title="Real-time directional lighting" data-copy="A directional light lit with per-pixel normals, with lighting data pushed to the shaders every frame.">
             <video class="spotlight-media" poster="images/craig-spotlight/04-directional-lighting-frame.png" autoplay muted loop playsinline aria-label="Model lit by a real-time directional light in Craig">
-              <source src="images/craig-spotlight/04-directional-lighting.mp4" type="video/mp4">
+              <source src="images/craig-spotlight/directional_lighting.webm" type="video/webm">
             </video>
           </li>
-          <li class="spotlight-slide" data-title="Batched transforms for performance" data-copy="Every object's transform lives in a single per-frame SSBO indexed by a push constant, so adding objects stays cheap."><img src="images/craig-spotlight/05-batched-transforms.svg" alt="Multiple GameObjects rendered together in Craig" loading="lazy"></li>
+          <li class="spotlight-slide" data-title="Batched transforms for performance" data-copy="Every object's transform lives in a single per-frame SSBO indexed by a push constant, so adding objects stays cheap."><img src="images/craig-spotlight/1_duck.png" alt="Multiple GameObjects rendered together in Craig" loading="lazy"></li>
           <li class="spotlight-slide" data-title="Mipmapping &amp; multisampling" data-copy="Automatic mip generation and MSAA keep distant geometry and edges clean without extra draw calls. Drag to compare.">
             <div class="compare-slider" role="slider" tabindex="0" aria-label="Drag to compare the scene with MSAA off versus on" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
-              <img class="compare-before" src="images/craig-spotlight/06a-msaa-off.svg" alt="Scene rendered without mipmapping or MSAA, showing jagged edges" draggable="false">
-              <img class="compare-after" src="images/craig-spotlight/06b-msaa-on.svg" alt="Scene rendered with mipmapping and MSAA enabled, showing smooth edges" draggable="false">
+              <img class="compare-before" src="images/craig-spotlight/aa_none.png" alt="Scene rendered without mipmapping or MSAA, showing jagged edges" draggable="false">
+              <img class="compare-after" src="images/craig-spotlight/aa_smooth.png" alt="Scene rendered with mipmapping and MSAA enabled, showing smooth edges" draggable="false">
               <div class="compare-divider"></div>
               <div class="compare-handle" aria-hidden="true">↔</div>
             </div>
@@ -84,14 +83,13 @@
         <button class="spotlight-dot" type="button" data-index="2" aria-label="Show slide 3" aria-selected="false"></button>
         <button class="spotlight-dot" type="button" data-index="3" aria-label="Show slide 4" aria-selected="false"></button>
         <button class="spotlight-dot" type="button" data-index="4" aria-label="Show slide 5" aria-selected="false"></button>
-        <button class="spotlight-dot" type="button" data-index="5" aria-label="Show slide 6" aria-selected="false"></button>
       </div>
     </section>
     <section id="featured" class="section featured-section" aria-labelledby="featured-title">
       <div class="section-heading"><h2 id="featured-title">Featured projects</h2></div>
       <div class="featured-grid">
         <article class="feature-card feature-card--craig">
-          <div class="feature-media"><img src="images/featured/craig-vulkan-viking-room.png" alt="Viking room texture asset used in Craig Vulkan"></div>
+          <div class="feature-media"><img src="images/featured/DUCK.png" alt="Viking room texture asset used in Craig Vulkan"></div>
           <div class="feature-content"><p class="project-index">GAME ENGINE</p><h3>Craig Engine</h3><p>My own game engine. The public version uses Vulkan and includes an editor, scene management, model loading, and rendering tools.</p><div class="tags"><span>C++</span><span>Vulkan</span><span>CMake</span><span>GLSL</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/Craig_Vulkan" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="craig">Details <span aria-hidden="true">+</span></button></div></div>
         </article>
         <article class="feature-card feature-card--stockbrain">
@@ -100,7 +98,7 @@
         </article>
         <article class="feature-card feature-card--papas">
           <div class="feature-media"><img src="images/featured/papas-pizzeria-3ds.png" alt="Papa’s Pizzeria running on Nintendo 3DS"></div>
-          <div class="feature-content"><p class="project-index">3DS GAME</p><h3>Papa’s Pizzeria 3DS</h3><p>A Papa’s Pizzeria remake for the Nintendo 3DS. I made it for my wife, then decided other people might enjoy it too.</p><div class="tags"><span>C</span><span>C++</span><span>3DS Homebrew</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/PapasPizzeria-n3DS" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="papas">Details <span aria-hidden="true">+</span></button></div></div>
+          <div class="feature-content"><p class="project-index">3DS GAME</p><h3>Papa’s Pizzeria 3DS</h3><p>A Papa’s Pizzeria remake for the Nintendo 3DS. I made it for my partner, then decided other people might enjoy it too.</p><div class="tags"><span>C</span><span>C++</span><span>3DS Homebrew</span></div><div class="card-actions"><a class="text-link" href="https://github.com/zylonity/PapasPizzeria-n3DS" target="_blank" rel="noreferrer">See the code <span aria-hidden="true">↗</span></a><button class="details-button" type="button" data-project="papas">Details <span aria-hidden="true">+</span></button></div></div>
         </article>
       </div>
     </section>
